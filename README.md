@@ -22,7 +22,11 @@ cd public && python3 -m http.server 8000
 ```
 
 ## النشر
-الإعداد جاهز لـ Vercel (`vercel.json`): استورد المستودع في Vercel وسيبني الموقع وينشر مجلد `public/` تلقائياً مع كل تحديث على `main`.
+**GitHub Pages (الطريقة المعتمدة):** ملف `.github/workflows/deploy-pages.yml` يبني الموقع وينشره تلقائياً مع كل تحديث على `main`.
+تفعيل لمرة واحدة: Settings ← Pages ← Source: **GitHub Actions**.
+(GitHub Pages مجاني للمستودعات العامة؛ المستودع الخاص يحتاج اشتراك GitHub Pro.)
+
+بديل: Vercel عبر `vercel.json`.
 
 بعد ربط النطاق، ضع رابطه في `SITE_URL` داخل `build.py` لتفعيل الروابط الأساسية (canonical/hreflang) وملف `sitemap.xml` وصورة المشاركة.
 

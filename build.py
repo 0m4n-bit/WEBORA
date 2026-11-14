@@ -11,6 +11,7 @@ No third-party packages are needed (Python 3.8+).
 Arabic pages live at the site root, English pages under /en/.
 """
 import json
+import os
 import shutil
 from datetime import date
 from html import escape
@@ -22,6 +23,10 @@ OUT = ROOT / "public"
 # Set this once the domain is ready (e.g. "https://webora.om") to enable
 # canonical/hreflang URLs, Open Graph URLs and sitemap.xml.
 SITE_URL = ""
+
+# URL path the site is served under. "/" for a custom domain; GitHub Pages
+# project sites use "/<repo>/" (set automatically by the deploy workflow).
+BASE_PATH = os.environ.get("BASE_PATH", "/").rstrip("/") + "/"
 
 PHONE_E164 = "+96897464626"
 PHONE_DISPLAY = "+968 9746 4626"
@@ -485,19 +490,21 @@ def build():
             html += header(c, lang, key) + fn(c, lang) + footer(c, lang, cta)
             (OUT / page_url(lang, key)).write_text(html, encoding="utf-8")
 
-    # 404 page (Arabic + English)
+    # 404 page (Arabic + English). Uses BASE_PATH because it can be served at any depth.
+    b = BASE_PATH
     (OUT / "404.html").write_text(f"""<!doctype html>
 <html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>الصفحة غير موجودة | WEBORA</title><meta name="robots" content="noindex">
-<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="icon" type="image/png" href="{b}assets/favicon.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&amp;family=Inter:wght@600;700&amp;display=swap">
-<link rel="stylesheet" href="/assets/style.css?v={VERSION}"></head>
+<link rel="stylesheet" href="{b}assets/style.css?v={VERSION}"></head>
 <body><main class="grid-bg" style="min-height:100vh;display:flex;align-items:center">
-<div class="container hero"><img class="hero-mark" src="/assets/logo-mark.png" alt="WEBORA" width="94" height="72">
+<div class="container hero"><img class="hero-mark" src="{b}assets/logo-mark.png" alt="WEBORA" width="94" height="72">
 <h1>الصفحة غير موجودة</h1><p class="lead" lang="en" dir="ltr">Page not found</p>
-<div class="btn-row"><a class="btn btn-primary" href="/">العودة للرئيسية</a><a class="btn btn-outline" href="/en/" lang="en">Back to home</a></div>
+<div class="btn-row"><a class="btn btn-primary" href="{b}">العودة للرئيسية</a><a class="btn btn-outline" href="{b}en/" lang="en">Back to home</a></div>
 </div></main></body></html>
 """, encoding="utf-8")
+    (OUT / ".nojekyll").write_text("", encoding="utf-8")
 
     robots = "User-agent: *\nAllow: /\n"
     if SITE_URL:
