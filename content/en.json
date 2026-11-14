@@ -1,0 +1,439 @@
+{
+  "home": {
+    "hero": {
+      "badge": "An all-in-one business platform for Oman",
+      "title1": "Run your business professionally,",
+      "title2": "from one platform.",
+      "sub": "Websites, online booking and smart accounting in one monthly subscription, built for salons, clinics, and clothing and product stores in Oman.",
+      "cta1": "Book a free consultation",
+      "cta2": "Explore services"
+    },
+    "pillars": [
+      "Websites",
+      "Booking",
+      "Smart accounting"
+    ],
+    "strip": {
+      "label": "Built for",
+      "items": [
+        "Salons & beauty centers",
+        "Clinics & medical centers",
+        "Clothing stores",
+        "Product stores"
+      ]
+    },
+    "services": {
+      "kicker": "Our services",
+      "title": "Everything your business needs, in one platform",
+      "all": "Service details",
+      "list": [
+        {
+          "num": "01",
+          "title": "Websites & online stores",
+          "desc": "Fast company websites and online stores in your brand, designed to turn visitors into customers."
+        },
+        {
+          "num": "02",
+          "title": "Booking system",
+          "desc": "Take bookings around the clock and organize staff and services without double-booking."
+        },
+        {
+          "num": "03",
+          "title": "Smart accounting",
+          "desc": "Invoices, expenses, inventory and clear financial reports in OMR, with VAT settings built in."
+        }
+      ]
+    },
+    "why": {
+      "kicker": "Why WEBORA",
+      "title": "A technology partner that knows your market",
+      "sub": "One integrated platform instead of scattered tools, so you can focus on growing your business.",
+      "list": [
+        {
+          "title": "Flexible monthly plans",
+          "desc": "Pay monthly for the plan that fits, and upgrade whenever you need."
+        },
+        {
+          "title": "Works on every device",
+          "desc": "Phone, tablet and desktop, for you and your customers."
+        },
+        {
+          "title": "Arabic & English",
+          "desc": "Full interfaces in both languages, RTL and LTR."
+        },
+        {
+          "title": "Data protection",
+          "desc": "Encrypted connections, staff permissions and regular backups."
+        },
+        {
+          "title": "Local support in Oman",
+          "desc": "A team that speaks your language and knows your market."
+        },
+        {
+          "title": "Continuous updates",
+          "desc": "New features reach you automatically within your plan."
+        }
+      ]
+    },
+    "contact": {
+      "kicker": "Contact us",
+      "title": "Let’s take your business digital",
+      "sub": "Send us your details and we will get in touch to arrange a free consultation.",
+      "phoneLabel": "Call us",
+      "name": "Name",
+      "type": "Business type",
+      "msg": "How can we help?",
+      "types": [
+        "Salon or beauty center",
+        "Clinic or medical center",
+        "Clothing store",
+        "Product store",
+        "Other"
+      ],
+      "send": "Send via WhatsApp",
+      "note": "WhatsApp will open with a ready message containing your details.",
+      "waIntro": "Hello WEBORA,",
+      "waName": "Name",
+      "waType": "Business",
+      "waMsg": "Request"
+    }
+  },
+  "header": {
+    "navLabel": "Main navigation",
+    "langSwitch": "العربية",
+    "langAria": "التبديل إلى العربية",
+    "cta": "Contact us",
+    "menu": "Menu",
+    "pages": {
+      "home": "Home",
+      "services": "Services",
+      "sectors": "Industries",
+      "how": "How it works & FAQ"
+    }
+  },
+  "footer": {
+    "ctaTitle": "Ready to take your business digital?",
+    "ctaSub": "Contact us today for a free consultation and we will recommend the right solution and plan.",
+    "wa": "Chat on WhatsApp",
+    "call": "Call us",
+    "about": "Integrated digital solutions for businesses in Oman.",
+    "pagesH": "Pages",
+    "p1": "Home",
+    "p2": "Services",
+    "p3": "Industries",
+    "p4": "How it works & FAQ",
+    "servicesH": "Services",
+    "s1": "Websites & online stores",
+    "s2": "Booking system",
+    "s3": "Smart accounting",
+    "contactH": "Contact",
+    "country": "Sultanate of Oman",
+    "rights": "© 2026 WEBORA. All rights reserved."
+  },
+  "services": {
+    "kicker": "Services",
+    "title": "Three integrated services that run your business end to end",
+    "sub": "Pick the service you need now. They all work together on one platform: your site takes orders and bookings, and accounting records them automatically.",
+    "fitFor": "Ideal for",
+    "svc": [
+      {
+        "title": "Websites & online stores",
+        "desc": "Your business online. We design a company website or online store in your brand: fast, mobile-friendly and ready to be found in search.",
+        "fit": [
+          "Clothing stores",
+          "Product stores",
+          "Salons",
+          "Clinics"
+        ],
+        "features": [
+          {
+            "t": "Designed in your brand",
+            "d": "Your colors, logo and style on every page."
+          },
+          {
+            "t": "Full online store",
+            "d": "Products, sizes and colors, cart and order management."
+          },
+          {
+            "t": "Arabic & English",
+            "d": "Complete content in both languages, RTL and LTR."
+          },
+          {
+            "t": "Fast & responsive",
+            "d": "Smooth on phone, tablet and desktop."
+          },
+          {
+            "t": "Search optimization",
+            "d": "A structure that helps customers find you on Google."
+          },
+          {
+            "t": "Easy content updates",
+            "d": "Edit products, prices and photos from your dashboard."
+          }
+        ]
+      },
+      {
+        "title": "Booking system",
+        "desc": "A system that takes bookings around the clock and assigns them to your staff by service and availability, with no clashes or back-and-forth calls.",
+        "fit": [
+          "Salons & beauty centers",
+          "Clinics & medical centers"
+        ],
+        "features": [
+          {
+            "t": "Book from your site",
+            "d": "Customers choose the service, staff and time themselves."
+          },
+          {
+            "t": "Services & prices",
+            "d": "Set the duration, price and provider of each service."
+          },
+          {
+            "t": "Hours & time off",
+            "d": "Per-staff schedules that block out-of-hours bookings."
+          },
+          {
+            "t": "Auto confirmations & reminders",
+            "d": "Messages on booking and before the appointment."
+          },
+          {
+            "t": "Edit & cancel",
+            "d": "Full appointment control from your dashboard."
+          },
+          {
+            "t": "Dashboard & reports",
+            "d": "Track today's and this week's bookings and revenue."
+          }
+        ]
+      },
+      {
+        "title": "Smart accounting",
+        "desc": "Simple, clear accounting that records sales, expenses and inventory in OMR, and issues tax invoices and financial reports.",
+        "fit": [
+          "Clothing stores",
+          "Product stores",
+          "Salons",
+          "Clinics"
+        ],
+        "features": [
+          {
+            "t": "Tax invoices",
+            "d": "Oman VAT settings built in."
+          },
+          {
+            "t": "Sales & purchases",
+            "d": "Record every sale and purchase and track payments."
+          },
+          {
+            "t": "Income & expenses",
+            "d": "A clear view of where your money goes each month."
+          },
+          {
+            "t": "Inventory & suppliers",
+            "d": "Live quantities and low-stock alerts."
+          },
+          {
+            "t": "Profit & loss",
+            "d": "Ready-made reports in one click."
+          },
+          {
+            "t": "Permissions",
+            "d": "Control what each staff member sees and edits."
+          }
+        ]
+      }
+    ],
+    "flow": {
+      "kicker": "Integration",
+      "title": "Services that work together, no double entry",
+      "sub": "Everything that starts on your website flows automatically into bookings, inventory and accounting.",
+      "list": [
+        {
+          "t": "Customer orders or books",
+          "d": "From your website or store, any time."
+        },
+        {
+          "t": "The system organizes",
+          "d": "Confirms the slot or deducts stock."
+        },
+        {
+          "t": "Invoice is issued",
+          "d": "A tax invoice is recorded in accounting automatically."
+        },
+        {
+          "t": "Reports update",
+          "d": "See sales and profit in real time."
+        }
+      ]
+    }
+  },
+  "sectors": {
+    "kicker": "Industries",
+    "title": "Solutions built around how you work",
+    "sub": "Every industry has its own challenges. We set the platform up to match the way you work from day one.",
+    "suggested": "Recommended services",
+    "challenges": "Common challenges",
+    "solutions": "How WEBORA helps",
+    "list": [
+      {
+        "id": "salons",
+        "tag": "Salons & beauty centers",
+        "title": "An organized schedule and returning clients",
+        "desc": "From booking to invoice, everything in one place your team can use with ease.",
+        "services": [
+          "Booking system",
+          "Website",
+          "Smart accounting"
+        ],
+        "pains": [
+          "Bookings by phone and chat get lost or clash",
+          "Clients forget their appointments",
+          "Hard to see revenue per stylist and service"
+        ],
+        "gains": [
+          "24/7 online booking by service and stylist",
+          "Automatic confirmations and reminders",
+          "Revenue reports by service and stylist"
+        ]
+      },
+      {
+        "id": "clinics",
+        "tag": "Clinics & medical centers",
+        "title": "Well-run schedules for every doctor",
+        "desc": "Clear scheduling for every doctor and specialty, and a comfortable booking experience for patients.",
+        "services": [
+          "Booking system",
+          "Website",
+          "Smart accounting"
+        ],
+        "pains": [
+          "Crowded reception and long waits",
+          "Appointment clashes between doctors",
+          "Tracking invoices and payments by hand"
+        ],
+        "gains": [
+          "Separate schedules and working hours per doctor",
+          "Online booking and patient reminders",
+          "Tax invoices and payment tracking"
+        ]
+      },
+      {
+        "id": "stores",
+        "tag": "Clothing & product stores",
+        "title": "Sell online, keep stock in control",
+        "desc": "An online store in your brand, connected to inventory and accounting, so you know what sells and what to reorder.",
+        "services": [
+          "Online store",
+          "Smart accounting"
+        ],
+        "pains": [
+          "Sales limited to the shop or social media",
+          "No accurate view of remaining stock",
+          "Hard to calculate real profit"
+        ],
+        "gains": [
+          "Online store with sizes, colors and order management",
+          "Stock updates with every order, with low-stock alerts",
+          "Sales and profit reports and tax invoices"
+        ]
+      }
+    ]
+  },
+  "how": {
+    "kicker": "How it works",
+    "title": "From first call to running your business digitally",
+    "sub": "Clear, defined steps. We handle all the technical work, and you stay informed at every stage.",
+    "steps": [
+      {
+        "title": "Free consultation",
+        "who": "With you directly",
+        "desc": "We learn about your business, how you work today and what you need, then recommend the right services and plan.",
+        "out": [
+          "Understand your needs",
+          "Recommend a solution",
+          "Clear quote"
+        ]
+      },
+      {
+        "title": "Setup & customization",
+        "who": "Handled by the WEBORA team",
+        "desc": "We configure your platform in your brand and enter your services or products, prices, working hours and staff.",
+        "out": [
+          "Your branding",
+          "Data entry",
+          "Settings & VAT"
+        ]
+      },
+      {
+        "title": "Review & training",
+        "who": "With you and your team",
+        "desc": "You review and test the platform before launch, and we train your team step by step.",
+        "out": [
+          "Pre-launch testing",
+          "Team training",
+          "User guide"
+        ]
+      },
+      {
+        "title": "Launch & ongoing support",
+        "who": "Included in your monthly plan",
+        "desc": "We launch to your customers and continue with technical support, updates and backups.",
+        "out": [
+          "Official launch",
+          "Technical support",
+          "Continuous updates"
+        ]
+      }
+    ],
+    "need": {
+      "title": "What we need from you",
+      "sub": "To set up your platform quickly and accurately, prepare whatever you have of the following:",
+      "list": [
+        "Your logo and brand colors",
+        "List of services or products and prices",
+        "Working hours and staff names",
+        "Photos of your business or products"
+      ]
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Answers to common questions",
+      "sub": "Didn't find your answer? Contact us directly.",
+      "ask": "Ask us on WhatsApp",
+      "list": [
+        {
+          "q": "Do I need technical experience?",
+          "a": "No. The interfaces are simple, and we set up the platform and train your team before launch."
+        },
+        {
+          "q": "Can I start with just one service?",
+          "a": "Yes. Start with a website, store, booking or accounting, and add the rest later."
+        },
+        {
+          "q": "Can the store connect to inventory and accounting?",
+          "a": "Yes. Orders update stock and create invoices automatically within the same platform."
+        },
+        {
+          "q": "Does it support Arabic and English?",
+          "a": "Yes. Every interface is available in both languages, and your customers can choose."
+        },
+        {
+          "q": "Are invoices compliant with Oman VAT?",
+          "a": "Yes. The system includes Oman VAT settings and issues tax invoices in Omani Rial."
+        },
+        {
+          "q": "Is my data secure?",
+          "a": "Yes. Connections are encrypted, each business's data is fully separated, with staff permissions and regular backups."
+        },
+        {
+          "q": "Can I use a domain with my business name?",
+          "a": "Yes. Your site can use a domain in your business name, and we help you register and connect it."
+        },
+        {
+          "q": "How does payment work?",
+          "a": "A monthly subscription based on your plan. Plan details are coming soon."
+        }
+      ]
+    }
+  }
+}
